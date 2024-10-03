@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="833.0" prefWidth="1229.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="108.0" prefWidth="1229.0" style="-fx-background-color: #468650;" HBox.hgrow="ALWAYS">
+         <children>
+            <Button layoutX="302.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #468650;" text="Freshness Tracker" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="505.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #468650;" text="Waste Tracker" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="674.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #468650;" text="Impact Calculator" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="877.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: #468650;" text="Green Guides" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="93.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EcoWaste">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
