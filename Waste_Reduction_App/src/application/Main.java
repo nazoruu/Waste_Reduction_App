@@ -1,5 +1,6 @@
 package application;
 
+import application.database.DataModel;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -16,6 +17,7 @@ public class Main extends Application {
 			scene.getStylesheets().add(getClass().getClassLoader().getResource("css/application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
+			DataModel dataModel = DataModel.getInstance();
             
         }catch(Exception e) {
 			e.printStackTrace();
