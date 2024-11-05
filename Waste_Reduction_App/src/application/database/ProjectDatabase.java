@@ -8,8 +8,7 @@ import java.sql.Statement;
 public class ProjectDatabase {
 	
 	private Connection connection;
-
-	private static final String URL = "jdbc:sqlite:data/projects.sqlite";
+	private static final String URL = "jdbc:sqlite:Waste_Reduction_App/data/projects.sqlite";
 
 	public ProjectDatabase() {
 		this.openConnection();

@@ -1,4 +1,4 @@
 package application.controller;
 
-public class SIgnUpController {
+public class SignUpController {
 }
